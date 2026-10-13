@@ -35,6 +35,7 @@ resource "aws_launch_template" "this" {
     <p>Security groups: ${var.ssh_sg_name} and ${var.private_http_sg_name}</p>
     <p>Network interface setting: delete_on_termination = true</p>
     <p>Instance ID: $INSTANCE_ID</p>
+    <p>Instance UUID: $UUID</p>
     <p>Availability zone: $AZ</p>
     <p>Private IP: $PRIVATE_IP</p>
     HTML
